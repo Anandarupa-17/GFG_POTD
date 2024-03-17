@@ -14,8 +14,7 @@ Example:
 Input:
 Linked List = 1 -> 2
 del_node = 1
-Output: 
-2
+Output: 2
 Explanation: 
 After deleting 1 from the linked list, 
 we have remaining nodes as 2.
