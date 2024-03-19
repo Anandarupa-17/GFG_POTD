@@ -31,3 +31,15 @@ head2 = 11->12->13
 x = 15
 Output: 3
 Explanation: There are total 3 pairs whose sum is 15 : (4,11) , (3,12) and (2,13)
+
+# 3. Level order traversal
+Given a root of a binary tree with n nodes, find its level order traversal.
+Level order traversal of a tree is breadth-first traversal for the tree.
+Example:
+
+Input:
+    1
+  /   \ 
+ 3     2
+Output:
+1 3 2
