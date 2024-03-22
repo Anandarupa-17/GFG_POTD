@@ -35,14 +35,6 @@ Explanation: There are total 3 pairs whose sum is 15 : (4,11) , (3,12) and (2,13
 # 3. Level order traversal
 Given a root of a binary tree with n nodes, find its level order traversal.
 Level order traversal of a tree is breadth-first traversal for the tree.
-Example:
-
-Input:
-    1
-  /   \ 
- 3     2
-Output:
-1 3 2
 
 # 4. Diagonal sum in binary tree
 Consider Red lines of slope -1 passing between nodes (in following diagram). The diagonal sum in a binary tree is the sum of all node datas lying between these lines. Given a Binary Tree of size n, print all diagonal sums.
