@@ -38,3 +38,6 @@ Level order traversal of a tree is breadth-first traversal for the tree.
 
 # 4. Diagonal sum in binary tree
 Consider Red lines of slope -1 passing between nodes (in following diagram). The diagonal sum in a binary tree is the sum of all node datas lying between these lines. Given a Binary Tree of size n, print all diagonal sums.
+
+# 5. Minimum Absolute Difference In BST
+Given a binary search tree having n (n>1) nodes, the task is to find the minimum absolute difference between any two nodes.
