@@ -6,9 +6,7 @@ By deleting the node value, we do not mean removing it from memory. We mean:
 The value of the given node should not exist in the linked list.
 The number of nodes in the linked list should decrease by one.
 All the values before & after the del_node node should be in the same order.
-Note:
-
-Multiple nodes can have the same values as the del_node, but you must only remove the node whose pointer del_node is given to you.
+Note: Multiple nodes can have the same values as the del_node, but you must only remove the node whose pointer del_node is given to you.
 It is guaranteed that there exists a node with a value equal to the del_node value and it will not be the last node of the linked list.
 Example:
 Input:
@@ -21,9 +19,7 @@ we have remaining nodes as 2.
 
 # 2. Count Pairs whose sum is equal to X
 Given two linked list head1 and head2 with distinct elements, determine the count of all distinct pairs from both lists whose sum is equal to the given value x.
-
 Note: A valid pair would be in the form (x, y) where x is from first linked list and y is from second linked list.
-
 Example:
 Input:
 head1 = 1->2->3->4->5->6
@@ -41,3 +37,16 @@ Consider Red lines of slope -1 passing between nodes (in following diagram). The
 
 # 5. Minimum Absolute Difference In BST
 Given a binary search tree having n (n>1) nodes, the task is to find the minimum absolute difference between any two nodes.
+
+# 6. Strictly Increasing Array
+Given an array nums of n positive integers. Find the minimum number of operations required to modify the array such that array elements are in strictly increasing order (nums[i] < nums[i+1]).
+Changing a number to greater or lesser than original number is counted as one operation.
+Note: Array elements can become negative after applying operation.
+Example 1:
+Input:
+n = 6
+nums = [1, 2, 3, 6, 5, 4]
+Output: 
+2
+Explanation: 
+By decreasing 6 by 2 and increasing 4 by 2, nums will be like [1, 2, 3, 4, 5, 6] which is stricly increasing.
